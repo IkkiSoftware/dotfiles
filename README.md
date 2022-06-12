@@ -4,9 +4,9 @@
 
 ### Prerequisites
 
-- An Arch-like operating system (only required for the installation with the script)
+- An Arch based operating system (only required for the installation with the script)
 - `curl` or `wget` should be installed
-- git
+- `git`
 
 ### Basic Installation
 

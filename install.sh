@@ -12,3 +12,19 @@ if [ "$distro" != "arch" ]; then
 fi
 
 #pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi pavucontrol pulseaudio feh
+
+
+HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}"
+REPO=${REPO:-IkkiSoftware/dotfiles}
+REMOTE=${REMOTE:-https://github.com/${REPO}.git}
+
+command_exists() {
+  command -v "$@" >/dev/null 2>&1
+}
+
+command_exists git || {
+    echo "git is not installed"
+    exit 1
+}
+
+git checkout $REMOTE "$HOME/.config/"
