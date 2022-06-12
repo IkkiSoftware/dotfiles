@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- An Arch-like operating system
+- An Arch-like operating system (only required for the installation with the script)
 - `curl` or `wget` should be installed
 - git
 
@@ -18,7 +18,7 @@ and clone this repo.
 | **curl**  | `sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"` 	|
 | **wget**  | `sudo sh -c "$(wget -O- https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"`   	|
 
-List of the softwares installed :
+List of the software installed :
 - zsh
 - i3-gaps
 - i3lock
@@ -27,4 +27,5 @@ List of the softwares installed :
 - alacritty
 - neovim
 
-If you just want the configuration files, clone the repo with the following command : **git clone https://github.com/IkkiSoftware/dotfiles.git**
+If you just want the configuration files, clone the repo with the following command :
+`git clone https://github.com/IkkiSoftware/dotfiles.git`
