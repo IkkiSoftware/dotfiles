@@ -13,4 +13,8 @@ return require('packer').startup(function()
       vim.api.nvim_exec([[ colorscheme gruvbox ]], false)
    end,
   })
+  use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
 end)

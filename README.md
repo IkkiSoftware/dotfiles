@@ -10,7 +10,7 @@
 
 ### Basic Installation
 
-If you start from scratch (no software installed already) you can invoke the following command. It will install the required softwares
+If you start from scratch (no software installed already) you can invoke the following command. It will install the required software
 and clone this repo.
 
 | Method    | Command                                                                                           	|
