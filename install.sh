@@ -11,6 +11,8 @@ if [ "$distro" != "arch" ]; then
 	exit
 fi
 
+echo "Configuration"
+
 #pacman -S i3-gaps i3lock neovim alacritty polybar rofi git wget curl
 
 
