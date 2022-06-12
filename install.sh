@@ -11,7 +11,7 @@ if [ "$distro" != "arch" ]; then
 	exit
 fi
 
-#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi pavucontrol pulseaudio feh
+#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi pavucontrol pulseaudio feh clang
 
 
 HOME="${HOME:-$(getent passwd $USER 2>/dev/null | cut -d: -f6)}"
@@ -27,4 +27,4 @@ command_exists git || {
     exit 1
 }
 
-git checkout $REMOTE "$HOME/.config/"
+git clone $REMOTE "$HOME/.config/"

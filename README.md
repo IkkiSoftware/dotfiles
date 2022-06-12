@@ -29,9 +29,15 @@ List of the software installed :
 - rofi
 - alacritty
 - neovim
+- clang
 
 If you just want the configuration files, clone the repo with the following command :
 
 `git clone https://github.com/IkkiSoftware/dotfiles.git $HOME/.config/`
 
 But check that the software above are installed on your system, otherwise some features won't be available.
+
+
+### Neovim
+
+`git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
