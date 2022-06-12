@@ -11,6 +11,4 @@ if [ "$distro" != "arch" ]; then
 	exit
 fi
 
-echo "Configuration"
-
-#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi
+#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi pavucontrol pulseaudio feh

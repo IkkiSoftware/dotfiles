@@ -20,6 +20,9 @@ and clone this repo.
 
 List of the software installed :
 - zsh
+- pavucontrol
+- pulseaudio
+- feh
 - i3-gaps
 - i3lock
 - polybar
@@ -28,4 +31,7 @@ List of the software installed :
 - neovim
 
 If you just want the configuration files, clone the repo with the following command :
-`git clone https://github.com/IkkiSoftware/dotfiles.git`
+
+`git clone https://github.com/IkkiSoftware/dotfiles.git $HOME/.config/`
+
+But check that the software above are installed on your system, otherwise some features won't be available.
