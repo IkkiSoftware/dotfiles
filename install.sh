@@ -13,6 +13,4 @@ fi
 
 echo "Configuration"
 
-#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi git
-
-
+#pacman -S zsh i3-gaps i3lock neovim alacritty polybar rofi

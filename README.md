@@ -6,6 +6,7 @@
 
 - An Arch-like operating system
 - `curl` or `wget` should be installed
+- git
 
 ### Basic Installation
 
@@ -17,4 +18,13 @@ and clone this repo.
 | **curl**  | `sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"` 	|
 | **wget**  | `sudo sh -c "$(wget -O- https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"`   	|
 
-If you just want the configuration files just clone the repo with the command : **git clone https://github.com/IkkiSoftware/dotfiles.git**
+List of the softwares installed :
+- zsh
+- i3-gaps
+- i3lock
+- polybar
+- rofi
+- alacritty
+- neovim
+
+If you just want the configuration files, clone the repo with the following command : **git clone https://github.com/IkkiSoftware/dotfiles.git**
