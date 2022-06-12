@@ -35,9 +35,13 @@ If you just want the configuration files, clone the repo with the following comm
 
 `git clone https://github.com/IkkiSoftware/dotfiles.git $HOME/.config/`
 
-But check that the software above are installed on your system, otherwise some features won't be available.
-
-
 ### Neovim
 
+If you don't install with the script, run the following command:
+
 `git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+
+Be sure to have the clang compiler :
+
+`sudo pacman -S clang`
+
