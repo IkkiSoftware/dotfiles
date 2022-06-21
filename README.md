@@ -10,13 +10,13 @@
 
 ### Basic Installation
 
-If you start from scratch (no software installed already) you can invoke the following command. It will install the required software
+If you start from scratch (no software installed) you can invoke the following command. It will install the required software
 and clone this repo.
 
 | Method    | Command                                                                                           	|
-| :-------- | :------------------------------------------------------------------------------------------------------- 	|
-| **curl**  | `sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"` 	|
-| **wget**  | `sudo sh -c "$(wget -O- https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"`   	|
+| :-------- | :-----------------------------------------------------------------------------------------------------|
+| **curl**  | `sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"` |
+| **wget**  | `sudo sh -c "$(wget -O- https://raw.githubusercontent.com/IkkiSoftware/dotfiles/main/install.sh )"`   |
 
 List of the software installed :
 - zsh

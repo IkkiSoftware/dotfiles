@@ -50,6 +50,9 @@ bindsym $mod+Ctrl+n exec ~/.config/polybar/scripts/ethernet.sh -s
 # VPN controls / Select interface
 bindsym $mod+Ctrl+w exec ~/.config/polybar/scripts/wireguard.sh -s
 
+# Capture screen
+bindsym --release $mod+Ctrl+c exec scrot -s ~/capture.jpg
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
